@@ -29,6 +29,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+
       - name: Install mdBook
         run: |
             # Send a GET request to the URL and follow redirects
@@ -48,6 +53,11 @@ jobs:
             curl -sSL $download_url | tar -xz --directory=bin
 
             echo "$(pwd)/bin" >> ${GITHUB_PATH}
+
+      - name: Install mdbook-admonish  
+        run: cargo install mdbook-admonish
+      - name: Install mdbook-katex
+        run: cargo install mdbook-katex
 
       - name: Setup Pages
         id: pages
