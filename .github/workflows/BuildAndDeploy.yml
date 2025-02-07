@@ -58,11 +58,6 @@ jobs:
         run: cargo install mdbook-admonish
       - name: Install mdbook-katex
         run: cargo install mdbook-katex
-
-      - name: Install mdbook-admonish  
-        run: cargo install mdbook-admonish
-      - name: Install mdbook-katex
-        run: cargo install mdbook-katex
       - name: Install mdbook-github-authors
         run: cargo install mdbook-github-authors
       - name: Install mdbook-reading-time
