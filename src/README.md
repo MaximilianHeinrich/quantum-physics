@@ -1,4 +1,5 @@
 # Einführung
+##### Lesezeit _{{ #reading_time }}_
 
 Die Welt der Quantenphysik ist eine atemberaubende; der Mensch verspürt seit vielen hundert Jahren den Drang, die natürlichen Abläufe und Funktionsweisen zu verspüren. Niemand ist darin die Ausnahme. In folgenden Notizen möchte ich mich ausgiebig mit diesem Wissenschaftsfeld auseinandersetzen und eine Grundlage für eine, von mir verfasste, Wissenschaftsarbeit zum 
 Thema des Zufalls in der Quantenphysik schaffen.
@@ -14,3 +15,5 @@ Um sich gut und schnell einen Überblick über das Gebiet der Quantenphysik zu v
 ```admonish abstract collapsible=true, title="Technische Informationen"
 Diese Notizen wurden mithilfe von `mdbook` verfasst. Zusätzlich werden die Erweiterungen `mdbook-katex` und `mdbook-admonish` verwendet. 
 ```
+
+{{#author maximilianheinrich}}

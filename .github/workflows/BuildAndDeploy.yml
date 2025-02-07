@@ -54,11 +54,26 @@ jobs:
 
             echo "$(pwd)/bin" >> ${GITHUB_PATH}
 
+<<<<<<< HEAD
       - name: Install mdbook-admonish  
         run: cargo install mdbook-admonish
       - name: Install mdbook-katex
         run: cargo install mdbook-katex
 
+||||||| parent of e285a22 (Add publications, add definition)
+=======
+      - name: Install mdbook-admonish  
+        run: cargo install mdbook-admonish
+      - name: Install mdbook-katex
+        run: cargo install mdbook-katex
+      - name: Install mdbook-github-authors
+        run: cargo install mdbook-github-authors
+      - name: Install mdbook-reading-time
+        run: cargo install mdbook-reading-time
+      - name: Install mdbook-embed
+        run: cargo install mdbook-embed
+
+>>>>>>> e285a22 (Add publications, add definition)
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
